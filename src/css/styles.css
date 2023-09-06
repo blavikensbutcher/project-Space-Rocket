@@ -16,11 +16,6 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
-body {
-  font-family: 'DM Sans', sans-serif;
-  color: #FFFFFF;
-  background-color: var(--black);
-}
 
 .container {
   max-width: 335px;
