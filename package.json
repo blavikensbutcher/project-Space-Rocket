@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/fs-95-vite/",
+    "build": "vite build --base=/project-Space-Rocket/",
     "preview": "vite preview"
   },
   "devDependencies": {

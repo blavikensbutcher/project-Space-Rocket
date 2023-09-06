@@ -1,0 +1,8 @@
+:root {
+    --black: #121212;
+    --gray: #1D1D1D;
+    --black-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+    --brown: #BEA69E;
+    --white: #FFF;
+    --black-star: #414141;
+}
