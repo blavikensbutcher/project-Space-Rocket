@@ -1,8 +1,22 @@
 :root {
-    --black: #121212;
-    --gray: #1D1D1D;
-    --black-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
-    --brown: #BEA69E;
-    --white: #FFF;
-    --black-star: #414141;
+  --black: #121212;
+  --gray: #1d1d1d;
+  --black-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  --brown: #bea69e;
+  --white: #fff;
+  --black-star: #414141;
+
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
