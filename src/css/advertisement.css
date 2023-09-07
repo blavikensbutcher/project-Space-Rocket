@@ -1,0 +1,30 @@
+.advertisement {
+  background: var(--black, #121212);
+}
+
+.advertisement-vector-up {
+  min-width: 375px;
+  stroke-width: 1px;
+  stroke: rgba(255, 255, 255, 0.2);
+}
+
+.advertisement-run-sides {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.035;
+  text-transform: uppercase;
+}
+.advertisement-run-center {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.035;
+  text-transform: uppercase;
+}
