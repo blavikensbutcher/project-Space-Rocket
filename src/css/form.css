@@ -70,3 +70,13 @@
 .href-privecy {
   text-decoration-line: underline;
 }
+
+.sign-up-img-big {
+  border-radius: 1000px;
+  background-color: #1d1d1d;
+}
+
+.sign-up-img-small {
+  border-radius: 1000px;
+  background-color: #bea69e;
+}
