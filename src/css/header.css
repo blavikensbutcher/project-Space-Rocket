@@ -48,7 +48,9 @@
 .header-camera-icon {
 
 }
-
+.camera-icon {
+  stroke: rgba(190, 166, 158, 1);
+}
 
 .header-btn-hamburger {
 display: flex;
