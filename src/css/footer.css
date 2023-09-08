@@ -1,6 +1,26 @@
+.hidden {
+    display: none;
+}
+
+.footer-logo-box {
+    margin-top: 40px;
+}
+
 .footer-address-list-item {
     font-style: normal;
     color: var(--white);
     font-size: 14px;
     line-height: 1.28;
+}
+
+.icon-svg-logo {
+    fill: var(--white);
+
+}
+
+
+.footer-logo-link {
+    display: inline-block;
+    width: 123px;
+    height: 16px;
 }
