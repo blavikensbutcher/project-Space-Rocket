@@ -1,0 +1,62 @@
+<!-- 6-Sign-up-section -->
+<section class="sign-up-section" id="sign-up">
+  <div class="container form-container">
+    <!-- form-sign-up-->
+    <h2 class="header-sign-up">Sign <span class="up-color">Up</span></h2>
+    <p class="paragraph-sign-up">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <div class="form-page">
+      <form class="form-sign-up">
+        <input
+          class="form-input"
+          type="name"
+          name="form-user-name"
+          placeholder="Enter your name"
+          pattern="[A-Za-z0-9]{6,}"
+          title="Логін не может бути меншим за 6 латинських символів."
+        />
+        <input
+          class="form-input"
+          type="email"
+          name="form-user-email"
+          placeholder="Enter your email"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          title="Пароль не може бути меншим за вісім символів і має містити хоча б одну цифру, одну маленьку та одну велику латинську літеру."
+        />
+        <textarea
+          class="form-input"
+          type="textarea"
+          name="user-message"
+          rows="6"
+          placeholder="Message"
+        >
+        </textarea>
+        <button class="form-button" type="submit">Send</button>
+        <p class="paragraph-privacy">
+          By clicking on “Send” button, you agree to our
+          <a class="href-privecy" href="Privacy Policy">Privecy Policy</a>, and
+          allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+    <img
+      class="sign-up-img"
+      srcset="src\img\sign-up\video-entry-product 1signup@1x.jpg, src=src\img\sign-up\video-entry-product 1signup@2x.jpg"
+      src="\img\sign-up\video-entry-product 1signup@1x.png"
+      alt="camera-small"
+      width="190"
+      height="288"
+    />
+
+    <img
+      class="sign-up-img"
+      srcset="src\img\sign-up\isabella-mendes-lRgkUlxJCkA-unsplash 1signup@1x.jpg, src\img\sign-up\isabella-mendes-lRgkUlxJCkA-unsplash 1signup@2x.jpg"
+      src="src\img\sign-up\isabella-mendes-lRgkUlxJCkA-unsplash 1signup@1x.png"
+      alt="camera-big"
+      width="254"
+      height="313"
+    />
+  </div>
+</section>

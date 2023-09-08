@@ -1,0 +1,72 @@
+/* 6-Sign-up-section */
+.sign-up-section {
+  margin-left: 100px;
+}
+.form-container {
+  min-width: 480px;
+}
+
+/* form-sign-up */
+
+.header-sign-up {
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+
+.up-color {
+  color: #bea69e;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.paragraph-sign-up {
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 40px;
+}
+.form-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.form-input,
+.textarea-message {
+  width: 100%;
+  background-color: black;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 1.2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+  margin-bottom: 14px;
+}
+
+.form-button {
+  width: 100%;
+  display: inline-flex;
+  padding: 16px 216px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--white, #fff);
+  margin-bottom: 20px;
+}
+
+.paragraph-privacy {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.href-privecy {
+  text-decoration-line: underline;
+}
