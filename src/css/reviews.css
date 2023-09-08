@@ -4,26 +4,22 @@ div.container1 {
     margin-left: auto;
 }
 
-
-@media only screen and (min-width: 375px) {
-    .div.container1 {
-        max-width: 768px;
+@media screen and (min-width: 768px) and (max-width: 1279.98px) {
+    div.container1 {
+        max-width: 704px;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
-    .div.container1 {
-        max-width: 584px;
+@media only screen and (min-width: 1280px) {
+    div.container1 {
+        max-width: 1240px;
     }
 }
-
 
 .review-title {
     margin-bottom: 40px;
     color: var(--white);
-    font-family: DM Sans;
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.33;
     letter-spacing: -0.04em;
@@ -31,8 +27,21 @@ div.container1 {
 
 .review-container {
     padding: 20px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
+
+}
+
+@media only screen and (min-width: 767.98px) {
+    .review-container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .review-container {
+        padding: 20px;
+
+    }
 }
 
 .review-list {
@@ -41,10 +50,26 @@ div.container1 {
 }
 
 .review-card-desc {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 767.98px) {
+    div.review-card-desc {
+        display: flex;
+        gap: 273px;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 768px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    div.review-card-desc {
+        gap: 163px;
+    }
 }
 
 .review-name-desc-only {
@@ -66,21 +91,25 @@ div.container1 {
 .review-card-subtitle {
     margin-bottom: 4px;
     color: var(--white);
-    font-family: DM Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .review-card-text {
     color: rgba(255, 255, 255, 0.50);
-    font-family: DM Sans;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.33;
     letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 767.98px) {
+
+    .review-card-text {
+        line-height: 1.28;
+        font-size: 14px;
+    }
 }
 
 .review-star-list {
@@ -92,24 +121,49 @@ div.container1 {
     fill: var(--brown);
 }
 
-.dark-icon {
+.review-dark-icon {
     fill: var(--black-star);
 }
 
 .review-main-text {
     /* width: 303px; */
     color: var(--white);
-    font-family: DM Sans;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
 }
 
+@media only screen and (min-width: 767.98px) {
+    .review-main-text {
+        max-width: 600px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .review-main-text {
+        max-width: 490px;
+    }
+}
+
 .review-size-upd2 {}
 
+.review-list-item {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
 .review-list-tablet-item {}
+
+.review-list-tablet-subtitle {}
+
+.review-list-tablet-text {
+    /* font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em; */
+}
 
 @media screen and (max-width:1279.98px) {
     .review-list-tablet-item {
