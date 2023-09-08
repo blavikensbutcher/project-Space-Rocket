@@ -1,0 +1,118 @@
+div.container1 {
+    max-width: 335px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media only screen and (min-width: 375px) {
+    .div.container1 {
+        max-width: 768px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
+    .div.container1 {
+        max-width: 584px;
+    }
+}
+
+
+.review-title {
+    margin-bottom: 40px;
+    color: var(--white);
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: -0.04em;
+}
+
+.review-container {
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.review-list {
+    display: flex;
+    gap: 20px;
+}
+
+.review-card-desc {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+.review-name-desc-only {
+    padding: 6px;
+}
+
+.review-img {
+    display: inline-block;
+
+    border-radius: 100px;
+    background: var(--black);
+}
+
+.review-card {
+    display: flex;
+    gap: 10px;
+}
+
+.review-card-subtitle {
+    margin-bottom: 4px;
+    color: var(--white);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.review-card-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+}
+
+.review-star-list {
+    display: flex;
+    justify-content: center;
+}
+
+.review-icon {
+    fill: var(--brown);
+}
+
+.dark-icon {
+    fill: var(--black-star);
+}
+
+.review-main-text {
+    /* width: 303px; */
+    color: var(--white);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+.review-size-upd2 {}
+
+.review-list-tablet-item {}
+
+@media screen and (max-width:1279.98px) {
+    .review-list-tablet-item {
+        display: none;
+    }
+}
