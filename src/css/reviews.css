@@ -1,4 +1,5 @@
 div.container1 {
+    min-width: 320px;
     max-width: 335px;
     margin-right: auto;
     margin-left: auto;
@@ -7,12 +8,14 @@ div.container1 {
 @media screen and (min-width: 768px) and (max-width: 1279.98px) {
     div.container1 {
         max-width: 704px;
+        padding: 0 32px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     div.container1 {
         max-width: 1240px;
+        /* padding: 100px; */
     }
 }
 
@@ -30,7 +33,7 @@ div.container1 {
 
 }
 
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
     .review-container {
         padding-left: 32px;
         padding-right: 32px;
@@ -40,12 +43,12 @@ div.container1 {
 @media only screen and (min-width: 1280px) {
     .review-container {
         padding: 20px;
-
     }
 }
 
 .review-list {
     display: flex;
+    justify-content: space-evenly;
     gap: 20px;
 }
 
@@ -56,7 +59,7 @@ div.container1 {
     padding-bottom: 20px;
 }
 
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
     div.review-card-desc {
         display: flex;
         gap: 273px;
@@ -104,7 +107,7 @@ div.container1 {
     letter-spacing: -0.02em;
 }
 
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
 
     .review-card-text {
         line-height: 1.28;
@@ -134,7 +137,7 @@ div.container1 {
     letter-spacing: -0.02em;
 }
 
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-width: 768px) {
     .review-main-text {
         max-width: 600px;
         font-size: 16px;
@@ -148,11 +151,20 @@ div.container1 {
     }
 }
 
-.review-size-upd2 {}
-
 .review-list-item {
+    flex-basis: 610px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+    .review-list-item {
+        flex-basis: 640px;
+    }
+}
+
+    {
+        {}
 }
 
 .review-list-tablet-item {}
@@ -168,5 +180,14 @@ div.container1 {
 @media screen and (max-width:1279.98px) {
     .review-list-tablet-item {
         display: none;
+    }
+}
+
+.review-icon {}
+
+@media only screen and (min-width: 768px) {
+    .review-icon {
+        width: 20px;
+        height: 20px;
     }
 }
