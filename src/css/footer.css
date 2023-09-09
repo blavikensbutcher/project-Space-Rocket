@@ -135,9 +135,15 @@
 
 }
 
-.footer-p-list {}
+.footer-p-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
 
-.footer-p-item {}
+.footer-p-item {
+    flex: 1 1 calc((100% - 72px) / 2);
+}
 
 .footer-p-item {}
 
