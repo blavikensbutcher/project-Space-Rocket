@@ -29,6 +29,7 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     padding: 20px;
+    position: relative;
 }
 
 @media only screen and (min-width: 768px) {
@@ -105,8 +106,8 @@
 @media only screen and (min-width: 768px) {
     .review-rate-stars-list {
         position: absolute;
-        top: 114px;
-        right: 72px;
+        top: 18px;
+        right: 18px;
     }
 }
 
@@ -115,8 +116,9 @@
 @media only screen and (min-width: 1280px) {
     .review-rate-stars-list-1280 {
         position: absolute;
-        top: 114px;
-        right: 685px;
+        top: 18px;
+        right: 18px;
+        margin-left: auto;
     }
 }
 
