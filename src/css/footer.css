@@ -97,7 +97,7 @@
 .form-label {}
 
 .footer-form-input {
-    width: 267px;
+    width: calc(100%);
     height: 60px;
 
     border-radius: 12px;
