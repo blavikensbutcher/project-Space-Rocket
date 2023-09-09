@@ -11,14 +11,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 .logo-header {
   fill: #ffffff;
   width: 123px;
   height: 16px;
-  text-align: left; 
-  
-  
+       
+}
+
+.header-btn-camera {
+ 
 }
 .nav-header {
   display: none;
@@ -57,6 +61,7 @@ display: flex;
 align-items: center;
 justify-content: start;
 background-color: transparent;
+
 } 
 
 .hamburger-icon {
@@ -73,8 +78,12 @@ cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+width: 768px;
+  }
 .header-container {
-max-width: 768px;
+width: 504px;
+gap: 20px;
 
 }
 .camera-icon {
@@ -106,14 +115,26 @@ height: 60px;
 }
 
 @media screen and (min-width: 1280px) {
+.header {
+width: 1280;
+}
 .header-container {
-max-width: 1280;
-    }
+width: 822;
+
+}
 .header-btn-hamburger {
  display: none;
 }
 .header-btn-sign {
  width: 236px;
- height: 60px;
+
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  gap: 97px;
+}
+.nav-item-header {
+  gap: 40px;
 }
 }
