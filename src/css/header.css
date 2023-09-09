@@ -9,26 +9,33 @@
   width: 100%;
   height: 50px;  
   align-items: center; 
-  padding: 0;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
- 
+  padding-left: 0; 
 }
+
 .logo-header {
   fill: #ffffff;
   width: 123px;
-  height: 16px; 
-  display: flex;
-  gap: 102px; 
- 
-       
+  height: 16px;   
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  display: block; 
+  
 }
+
+.header-btn-camera {
+background-color: #1D1D1D;
+border-radius: 100%;
+border: 1px solid #1D1D1D;
+}
+
 .camera-icon-header {
- display: flex;
- gap: 14px;
- stroke: rgba(190, 166, 158, 1);
+fill: #BEA69E66;
+margin: 8PX;
+display: flex; 
 }
+
 .header-sign-btn,
 .nav-list {
   display: none;
@@ -73,6 +80,8 @@ gap: 20px;
 }
 .header-sign {
   display: flex;
+  position: relative;
+  
 }
 
 .header-sign-btn{
@@ -92,11 +101,17 @@ width: 188px;
 height: 60px; 
 position: relative;
 display: inline-flex;
+display: flex;
+
  }
+
 .header-sign:hover,
-.header-sign:focuc {
-stroke: brown;
+.header-sign:focus {
 background-color: rgba(29, 29, 29, 1);
+}
+.header-sign-btn:hover,
+.header-sign-btn:focus {
+  color: brown;
 }
 }
 
@@ -108,8 +123,8 @@ max-width: 1280;
 width: 822px;
 display: flex;
 flex-wrap: wrap;
-
 }
+
 .header-btn-hamburger {
  display: none;
 }
@@ -129,11 +144,18 @@ flex-wrap: wrap;
   gap: 40px;
 }
 .nav-item-header {
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+justify-content: center;
+align-items: center;
+display: flex;
 }
+
 .nav-link-header {
   font-weight: 500;
   letter-spacing: 0.02em;
