@@ -1,6 +1,17 @@
+.my-container {
+    max-width: 335px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .footer-logo-box {
     margin-top: 40px;
 
+}
+
+.footer {
+    background-image: url(../img/);
 }
 
 .footer-address {
@@ -121,14 +132,12 @@
 
 .footer-paragraf-box {
     padding: 40px 0 20px;
+
 }
 
-.footer-p-list {
-    display: flex;
-    flex-direction: row;
-    gap: 72px;
-}
+.footer-p-list {}
 
+.footer-p-item {}
 
 .footer-p-item {}
 
