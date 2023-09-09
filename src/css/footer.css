@@ -87,7 +87,9 @@
     padding-top: 75px;
 }
 
-.footer-form-box {}
+.footer-form-box {
+    margin-bottom: 40px;
+}
 
 .footer-form {
     display: flex;
@@ -130,22 +132,22 @@
 
 /* paragraf */
 
-.footer-paragraf-box {
-    padding: 40px 0 20px;
-
-}
-
-.footer-p-list {
+.footer-paragraf-boxx {
     display: flex;
-    gap: 24px;
+    gap: 72px;
     flex-wrap: wrap;
+
 }
 
-.footer-p-item {
-    flex: 1 1 calc((100% - 72px) / 2);
+.footer-l-list {
+    display: flex;
+    flex-direction: column;
 }
 
-.footer-p-item {}
+.footer-r-list {
+    display: flex;
+    flex-direction: column;
+}
 
 .f-text-style {
     font-size: 12px;
