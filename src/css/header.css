@@ -11,18 +11,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0;
   padding: 0;
+ 
 }
 .logo-header {
   fill: #ffffff;
   width: 123px;
   height: 16px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
        
 }
-
-.header-btn-camera {
- 
+.camera-icon-header {
+ display: flex;
+ gap: 22px;
+ stroke: rgba(190, 166, 158, 1);
 }
 .nav-header {
   display: none;
@@ -49,12 +53,9 @@
   color: #747bff;
 }
 
-.header-camera-icon {
 
-}
-.camera-icon {
-  stroke: rgba(190, 166, 158, 1);
-}
+
+
 
 .header-btn-hamburger {
 display: flex;
@@ -95,7 +96,6 @@ gap: 20px;
 }
 
 .header-btn-sign {
-display: block;
 border-radius: 12px;
 background: #FFF;
 display: inline-flex;
@@ -110,7 +110,9 @@ font-weight: 700;
 line-height: 1.56; 
 text-transform: uppercase; 
 width: 186px; 
-height: 60px;  
+height: 60px; 
+position: relative;
+display: flex;
  }
 }
 
