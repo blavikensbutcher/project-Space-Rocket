@@ -27,6 +27,14 @@
     gap: 14px;
 }
 
+.footer-nav-list-item {
+    font-size: 14px;
+}
+
+.footer-so-link {
+    font-size: 14px;
+}
+
 .footer-address-list-item {
     font-style: normal;
     color: var(--white);
