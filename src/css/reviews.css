@@ -2,6 +2,24 @@
     padding: 0 20px 80px;
 }
 
+div.container.adjust-container {}
+
+
+@media only screen and (min-width: 768px) {
+    div.container.adjust-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    div.container.adjust-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
 .review-title {
     color: var(--white);
     font-size: 28px;
@@ -21,7 +39,7 @@
 
 @media only screen and (min-width: 1280px) {
     .review-title {
-        margin-left: 32px;
+        /* margin-left: 32px; */
     }
 }
 
@@ -34,13 +52,14 @@
 
 @media only screen and (min-width: 768px) {
     .review-card-container {
-        margin: 0 32px;
+        /* margin: 0 32px; */
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .review-card-container {
         margin: 0;
+        height: 216px;
     }
 }
 
@@ -118,7 +137,7 @@
         position: absolute;
         top: 18px;
         right: 18px;
-        margin-left: auto;
+        /* margin-left: auto; */
     }
 }
 
@@ -161,11 +180,18 @@
     gap: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+    .review-card-container-list {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
 .review-card-container-list-abraham {}
 
 @media only screen and (min-width: 1280px) {
     .review-card-container-list-abraham {
-        margin-left: 27px;
+        /* margin-left: 27px; */
     }
 }
 
@@ -179,6 +205,7 @@
 
 @media only screen and (min-width: 1280px) {
     .review-card-container-list-amanda {
-        margin-right: 27px;
+        /* margin-right: 27px; */
+
     }
 }
