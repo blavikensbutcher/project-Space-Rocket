@@ -92,6 +92,8 @@
     gap: 8px;
 }
 
+
+
 .form-label {}
 
 .footer-form-input {
@@ -101,6 +103,10 @@
     border-radius: 12px;
     background: #FFF;
     border: none;
+    /* playsholder */
+    padding-left: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .footer-form-button {
@@ -122,7 +128,12 @@
     /* 24px */
 }
 
-
+.footer-form-button:hover,
+.footer-form-button:focus {
+    color: #BEA69E;
+    background-color: #1D1D1D;
+    ;
+}
 
 /* paragraf */
 
