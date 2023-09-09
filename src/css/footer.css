@@ -6,7 +6,10 @@
 
 .footer {
     padding: 0 20px 0;
-    background-image: url(../img/);
+    background-image: url(../img/hero/Graphic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 /* logo */
