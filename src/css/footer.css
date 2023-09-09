@@ -14,6 +14,7 @@
     color: var(--white);
     font-size: 14px;
     line-height: 1.28;
+    text-transform: uppercase;
 }
 
 .icon-svg-logo {
@@ -26,4 +27,8 @@
     display: inline-block;
     width: 123px;
     height: 16px;
+}
+
+.footer-so-link {
+    text-transform: uppercase;
 }
