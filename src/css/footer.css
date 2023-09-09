@@ -5,7 +5,7 @@
 }
 
 .footer {
-    padding: 20px;
+    padding: 0 20px 0;
     background-image: url(../img/);
 }
 
@@ -139,7 +139,7 @@
 
 .footer-paragraf-boxx {
     display: flex;
-    gap: 72px;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
