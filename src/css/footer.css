@@ -65,12 +65,18 @@
     font-size: 14px;
 }
 
+.footer-so-link:hover,
+.footer-so-link:focus {
+    color: #BEA69E;
+}
+
 /* nav page */
 .footer-nav-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
+    cursor: pointer;
 }
 
 .footer-nav-list-item {
@@ -78,6 +84,10 @@
     text-transform: uppercase;
 }
 
+.footer-nav-list-item:hover,
+.footer-nav-list-item:focus {
+    color: #BEA69E;
+}
 
 /* form */
 .footer-form-box {
