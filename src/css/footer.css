@@ -28,7 +28,7 @@
 
 }
 
-/* addres */
+/* address */
 .footer-address {
     margin-top: 20px;
 }
@@ -107,7 +107,7 @@
 
 
 
-.form-label {}
+
 
 .footer-form-input {
     width: calc(100%);
@@ -116,7 +116,7 @@
     border-radius: 12px;
     background: #FFF;
     border: none;
-    /* playsholder */
+    /* placeholder */
     padding-left: 18px;
     padding-top: 20px;
     padding-bottom: 20px;
