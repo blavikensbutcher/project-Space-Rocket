@@ -1,23 +1,16 @@
 .review-container {
-    padding: 0 20px 80px;
+    /* padding: 0 20px 80px; */
 }
 
 div.container.adjust-container {}
 
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 375px) {
     div.container.adjust-container {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media only screen and (min-width: 1280px) {
-    div.container.adjust-container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
 
 
 .review-title {
@@ -182,8 +175,8 @@ div.container.adjust-container {}
 
 @media only screen and (min-width: 768px) {
     .review-card-container-list {
-        padding-left: 32px;
-        padding-right: 32px;
+        /* padding-left: 32px;
+        padding-right: 32px; */
     }
 }
 
