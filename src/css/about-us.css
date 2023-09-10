@@ -1,1 +1,47 @@
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 
+.about-us-image {
+   border-radius: 1000px;
+    background: url(<path-to-image>), lightgray -26472426795992870px -836446755940602900px / 670326570992920700% 330827669314972600% no-repeat;
+margin-bottom: 40;
+}
+
+.about-us-text1 {
+    color: var(--white, #FFF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    letter-spacing: -0.32px;
+    margin-bottom: 20;
+}
+.about-us-text2 {
+    color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+        margin-bottom: 80;
+}
+.about-us-title {
+    color: #FFF;
+    margin-top: 80;
+    margin-bottom: 40;
+    font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -1.12px;
+} 
+.about-us-title2 {
+    color: #BEA69E;
+    font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -1.12px;
+}
