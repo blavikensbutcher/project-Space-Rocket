@@ -8,31 +8,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-.section-mentors{
-    /* padding: 80px 20px; */
-    max-width: 335px;
-    margin: auto;
-}
-@media screen and (min-width: 768px) {
-    .section-mentors{
-        max-width: 704px;
-        padding: 0;
-        padding-top: 100px;
-        
 
-    }
-}
-@media screen and (min-width: 1280px) {
-    .section-mentors{
-        max-width: 1079px;
-        
-    }
-}
-@media screen and (min-width: 1440px) {
-    .section-mentors{
-        max-width: 1189px;
-    }
-}
 /**
   |============================
   | Our mentors
