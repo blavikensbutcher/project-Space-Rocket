@@ -69,7 +69,7 @@ div.container.adjust-container {}
 
 @media only screen and (min-width: 768px) {
     .review-student-info {
-        margin-bottom: 23px;
+        margin-bottom: 20px;
     }
 }
 
@@ -167,9 +167,9 @@ div.container.adjust-container {}
 }
 
 @media only screen and (min-width: 1280px) {
-   .review-main-opinion{
-    max-width: 490px;
-  }
+    .review-main-opinion {
+        max-width: 490px;
+    }
 }
 
 .review-card-container-list {
