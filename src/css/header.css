@@ -1,16 +1,24 @@
-.header {
-  padding: 20px 0;
-  
+.header-container {
+margin-left: 20px;
+}
+.header-container {
+margin-left: 20px;
+padding-left: 0;
+ 
 }
 
-.header-container {
+.header-nav-container {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.20);
   width: 100%;
   height: 50px;  
-  align-items: center; 
-  display: flex;
-  padding-left: 0; 
+  align-items: center;  
+  display: flex; 
+  margin-top: 20px; 
+  text-align: left;
+ 
+ 
+  
 }
 
 .logo-header {
@@ -21,13 +29,14 @@
   align-items: center;
   margin-right: auto;
   display: block; 
-  
+ 
 }
 
 .header-btn-camera {
 background-color: #1D1D1D;
 border-radius: 100%;
 border: 1px solid #1D1D1D;
+margin-right: 14px;
 }
 
 .camera-icon-header {
@@ -46,6 +55,7 @@ padding: 0;
 line-height: 0;
 border: none;
 background-color: transparent;
+padding-right: 14px;
 }
 
 .hamburger-icon {
@@ -63,25 +73,32 @@ background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-max-width: 768px;
-  }
 .header-container {
-width: 504px;
-gap: 20px;
-
+max-width: 768px;
+flex-direction: row;
+align-items: center;
+margin-right: auto;
+display: flex;  
 }
+
+.header-nav-container {
+width: 504px; 
+}
+
 .camera-icon-header {
   display: none;
 }
+
 .hamburger-icon {
   width: 48px;
   height: 28px;
 }
+
 .header-sign {
   display: flex;
-  position: relative;
-  
+  align-items: center;
+  justify-content: center; 
+  cursor: pointer; 
 }
 
 .header-sign-btn{
@@ -116,10 +133,10 @@ background-color: rgba(29, 29, 29, 1);
 }
 
 @media screen and (min-width: 1280px) {
-.header {
+.header-container {
 max-width: 1280;
 }
-.header-container {
+.header-nav-container {
 width: 822px;
 display: flex;
 flex-wrap: wrap;
