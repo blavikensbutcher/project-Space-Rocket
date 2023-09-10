@@ -186,7 +186,14 @@ div.container.adjust-container {}
 
 .review-card-container-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+}
+
+@media only screen and (min-width: 1280px) {
+    .review-card-container-list-item {
+        flex-basis: calc((100% - 20px) / 2);
+    }
 }
 
 @media only screen and (max-width: 1279.98px) {
