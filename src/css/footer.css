@@ -4,6 +4,15 @@
     margin-left: auto;
 }
 
+@media screen and (min-width: 768px) {
+    .my-container {
+        max-width: 704px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+
 .footer {
     padding: 0 20px 0;
     background-image: url(../img/hero/Graphic.png);
@@ -12,9 +21,22 @@
 
 }
 
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 0;
+        background-repeat: repeat;
+    }
+}
+
 /* logo */
 .footer-logo-box {
     margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-logo-box {
+        margin-top: 50px;
+    }
 }
 
 .footer-logo-link {
@@ -22,6 +44,9 @@
     width: 123px;
     height: 16px;
 }
+
+@media screen and (min-width: 768px) {}
+
 
 .icon-svg-logo {
     fill: var(--white);
@@ -31,6 +56,14 @@
 /* address */
 .footer-address {
     margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-address {
+        margin-top: 25px;
+        /*  */
+
+    }
 }
 
 .footer-address-list {
@@ -56,11 +89,29 @@
     gap: 40px;
 }
 
+@media screen and (min-width: 768px) {
+    .footer-social-nav-box {
+        padding-top: 50px;
+        display: flex;
+        gap: 40px;
+
+    }
+}
+
 .footer-social-list {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-social-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+    }
 }
 
 .footer-so-link {
