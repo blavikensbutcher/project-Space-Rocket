@@ -1,6 +1,4 @@
-.header-container {
-margin-left: 20px;
-}
+
 .header-container {
 margin-left: 20px;
 padding-left: 0;
@@ -16,7 +14,6 @@ padding-left: 0;
   display: flex; 
   margin-top: 20px; 
   text-align: left;
- 
  
   
 }
@@ -75,31 +72,38 @@ padding-right: 14px;
 @media screen and (min-width: 768px) {
 .header-container {
 max-width: 768px;
-flex-direction: row;
-align-items: center;
-margin-right: auto;
-display: flex;  
+
+}
+.header-container {
+  margin-left: 20px;
+  padding-left: 0;
+
 }
 
 .header-nav-container {
-width: 504px; 
+  width: 504px;
 }
 
 .camera-icon-header {
   display: none;
 }
-
-.hamburger-icon {
-  width: 48px;
-  height: 28px;
-}
-
 .header-sign {
   display: flex;
   align-items: center;
-  justify-content: center; 
-  cursor: pointer; 
+  justify-content: center;
+  cursor: pointer;
 }
+.header-sign-btn {
+  
+}
+/* 
+
+
+
+
+
+
+
 
 .header-sign-btn{
 border-radius: 12px;
@@ -129,7 +133,7 @@ background-color: rgba(29, 29, 29, 1);
 .header-sign-btn:hover,
 .header-sign-btn:focus {
   color: brown;
-}
+} */
 }
 
 @media screen and (min-width: 1280px) {
