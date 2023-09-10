@@ -1,25 +1,37 @@
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
+/**
+  |============================
+  | Body
+  |============================
+*/
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 .section-mentors{
-    padding: 80px 20px;
     max-width: 335px;
-    margin: 0 auto;
+    margin: auto;
 }
-
-
-
-
-
-
-
+@media screen and (min-width: 768px) {
+    .section-mentors{
+        max-width: 704px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .section-mentors{
+        max-width: 1079px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .section-mentors{
+        max-width: 1189px;
+    }
+}
+/**
+  |============================
+  | Our mentors
+  |============================
+*/
 .title-mentor{
 color: var(--white);
 font-size: 28px;
@@ -35,26 +47,54 @@ font-weight: 500;
 line-height: 1.14; /* 114.286% */
 letter-spacing: -1.12px;
 }
+@media screen and (min-width: 768px) {
+    .title-mentor{ 
+    font-size: 48px;
+    line-height: 1.12; /* 112.5% */
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+    }
+    .different-color{
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -1.92px;
+        }
+    }
 .mentors-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-
 @media screen and (min-width: 768px) {
     .mentors-list{
         gap: 93px 100px;
-        padding: 50px 115px;
     }
-    
+}
+@media screen and (min-width: 1280px) {
+    .mentors-list{
+        gap: 93px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .mentors-list{
+        gap: 113px;
+    }
 }
 .mentors-item{
     margin-bottom: 40px;
+    
+    
 }
-
+@media screen and (min-width: 768px) {
+    .mentors-item{
+        margin-bottom: 0;
+        
+    }
+}
 .mentor-img{
     border-radius: 50%;
+    margin-bottom: 16px;
 }
 .name-experience{
     display: flex;
@@ -78,4 +118,11 @@ font-size: 12px;
 font-weight: 400;
 line-height: 1.33; /* 133.333% */
 letter-spacing: -0.24px;
+}
+@media screen and (min-width: 768px) {
+    .mentors-text{
+font-size: 14px;
+line-height: 1.28; /* 128.571% */
+letter-spacing: -0.28px;
+}
 }
