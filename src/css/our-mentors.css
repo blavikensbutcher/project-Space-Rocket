@@ -10,6 +10,8 @@ img {
 }
 .section-mentors{
     padding: 80px 20px;
+    max-width: 335px;
+    margin: auto;
 }
 
 
