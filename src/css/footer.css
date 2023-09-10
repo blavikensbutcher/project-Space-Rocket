@@ -76,11 +76,7 @@
     }
 }
 
-.footer-logo-link {
-    display: inline-block;
-    width: 123px;
-    height: 16px;
-}
+
 
 @media screen and (min-width: 768px) {}
 
@@ -97,9 +93,7 @@
 
 @media screen and (min-width: 768px) {
     .footer-address {
-        margin-top: 25px;
-        /*  */
-
+        margin-top: 0;
     }
 }
 
@@ -309,7 +303,7 @@
         justify-content: space-between;
 
         flex-wrap: wrap;
-        align-items: baseline;
+
     }
 
     .footer-logo-box {
