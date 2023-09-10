@@ -1,3 +1,9 @@
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+
 .my-container {
     max-width: 335px;
     margin-right: auto;
@@ -53,6 +59,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .footer {
+
         background-image: url(../img/footer/footer-bg-tablet@2x.png);
     }
 }
@@ -277,7 +284,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
-    /* 24px */
+
 }
 
 .footer-form-button:hover,
@@ -293,8 +300,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-
 }
 
 @media screen and (min-width: 768px) {
@@ -323,7 +328,7 @@
     font-size: 12px;
 }
 
-/*  */
+
 
 @media screen and (min-width: 768px) {
     .footer-box {
@@ -368,5 +373,4 @@
 
     }
 
-    .footer-form {}
 }
