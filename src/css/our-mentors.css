@@ -1,0 +1,110 @@
+/**
+  |============================
+  | Body
+  |============================
+*/
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/**
+  |============================
+  | Our mentors
+  |============================
+*/
+.title-mentor{
+color: var(--white);
+font-size: 28px;
+font-weight: 500;
+line-height: 1.14; /* 114.286% */
+letter-spacing: -1.12px;
+margin-bottom: 40px;
+}
+.different-color{
+color: var(--brown);
+font-size: 28px;
+font-weight: 500;
+line-height: 1.14; /* 114.286% */
+letter-spacing: -1.12px;
+}
+@media screen and (min-width: 768px) {
+    .title-mentor{ 
+    font-size: 48px;
+    line-height: 1.12; /* 112.5% */
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+    }
+    .different-color{
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -1.92px;
+        }
+    }
+.mentors-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 768px) {
+    .mentors-list{
+        gap: 93px 100px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .mentors-list{
+        gap: 93px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .mentors-list{
+        gap: 113px;
+    }
+}
+.mentors-item{
+    margin-bottom: 40px;
+    
+    
+}
+@media screen and (min-width: 768px) {
+    .mentors-item{
+        margin-bottom: 0;
+        
+    }
+}
+.mentor-img{
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.name-experience{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.subtitel-mentor{
+color: var(--white);
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+}
+.mentors-text{
+color: rgba(255, 255, 255, 0.50);
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.33; /* 133.333% */
+letter-spacing: -0.24px;
+}
+@media screen and (min-width: 768px) {
+    .mentors-text{
+font-size: 14px;
+line-height: 1.28; /* 128.571% */
+letter-spacing: -0.28px;
+}
+}
