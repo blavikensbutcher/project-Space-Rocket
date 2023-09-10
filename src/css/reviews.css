@@ -7,10 +7,6 @@ div.container.adjust-container {}
     }
 }
 
-@media only screen and (min-width: 1280px) {
-    div.container.adjust-container {}
-}
-
 @media screen and (min-width: 1440px) {
     div.container.adjust-container {
         max-width: 1240px;
