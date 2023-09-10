@@ -35,12 +35,6 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 20px;
-
-    /* down */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -48,6 +42,8 @@
 
         padding-left: 32px;
         padding-right: 32px;
+
+        background-image: url(../img/hero/Graphic.png);
         background-repeat: repeat;
         margin-bottom: 25px;
     }
@@ -57,13 +53,11 @@
     .footer {
         padding-left: 100px;
         padding-right: 100px;
+        background-image: url(../img/hero/Graphic.png);
     }
 }
 
-.footer-box {
-    /* down */
-    position: relative;
-}
+.footer-box {}
 
 /* logo */
 .footer-logo-box {
@@ -171,6 +165,14 @@
     align-items: flex-start;
     gap: 14px;
     cursor: pointer;
+
+
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 1280px) {
