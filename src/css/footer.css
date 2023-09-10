@@ -32,7 +32,7 @@
 .footer {
     padding: 0 20px 0;
     background-image: url(../img/hero/Graphic.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     margin-bottom: 20px;
 }
