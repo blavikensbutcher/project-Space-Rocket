@@ -55,6 +55,12 @@ div.container.adjust-container {}
     }
 }
 
+@media only screen and (min-width: 1440px) {
+    .review-card-container {
+        height: 196px;
+    }
+}
+
 .review-student-img {
     border-radius: 100px;
     background: var(--black);
@@ -169,6 +175,12 @@ div.container.adjust-container {}
 @media only screen and (min-width: 1280px) {
     .review-main-opinion {
         max-width: 490px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .review-main-opinion {
+        max-width: 570px;
     }
 }
 
