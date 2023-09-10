@@ -160,13 +160,12 @@
     height: auto;
     border-radius: 1000px;
     background-color: #bea69e;
-    /* display: flex;
-    align-items: center; */
   }
 
   .sign-up-img-small {
     margin: 63px 18px;
     max-width: 288px;
+    margin-left: -20px;
   }
 
   .wrap-sign-up-foto2 {
@@ -174,8 +173,6 @@
     height: 100%;
     border-radius: 1000px;
     background-color: #1d1d1d;
-    /* display: flex;
-    align-items: center; */
   }
 
   .sign-up-img-big {
