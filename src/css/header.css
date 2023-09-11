@@ -32,6 +32,10 @@
   margin-right: 14px;
 }
 
+.header-btn-camera:active {
+  fill: #BEA69E;
+}
+
 .camera-icon-header {
   fill: #bea69e66;
   margin: 8px;
