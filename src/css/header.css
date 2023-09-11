@@ -44,7 +44,7 @@ margin: 8PX;
 display: flex; 
 }
 
-.header-sign-btn,
+.header-sign-link,
 .nav-list {
   display: none;
 }
@@ -86,6 +86,8 @@ max-width: 768px;
  align-items: center;
  justify-content: left;
  display: flex;
+ flex-wrap: nowrap;
+ gap: 14px;
  
 }
 .logo-header {  
@@ -96,39 +98,28 @@ max-width: 768px;
 .camera-icon-header {
   display: none;
 }
+
 .header-sign-link {
+display: flex;
 padding-top: 20px;
-}
-.header-open-sign {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;  
-  gap: 34px;
-  display: flex;
-  padding: 16px 58px;
-}  
-
-
-.header-sign-btn {
+align-items: center;
+justify-content: center; 
+padding: 16px 58px;
 color: #121212;
 font-family: DM Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.56;
-padding: 16px 58px;
-justify-content: center;
-align-items: center;
 border-radius: 12px;
 background: #FFF;
-display: flex;
 width: 186px;
 height: 60px;
+
 }
 
-.header-sign-btn:hover,
-.header-sign-btn:focus {
+.header-sign-link:hover,
+.header-sign-link:focus {
   background-color: rgba(29, 29, 29, 1);
   color: rgba(190, 166, 158, 1);
 }
@@ -185,7 +176,7 @@ display: flex;
 align-items: center;
 
 }
-.header-sign-btn {
+.header-sign-link {
   padding: 16px 84px;
   width: 238px;  
 }
