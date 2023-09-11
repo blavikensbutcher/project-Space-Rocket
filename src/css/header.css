@@ -76,17 +76,11 @@ max-width: 768px;
 
 
 .header-nav-container {
- width: 504px;
- margin-left: 32px;  
- margin-right: 14px;
- flex-wrap: wrap;
- justify-content: center;
+ width: 504px;  
+ margin-right: 14px; 
  align-items: center;
  justify-content: left;
- display: flex;
- flex-wrap: nowrap;
- gap: 14px;
- 
+ display: flex; 
 }
 
 .camera-icon-header {
