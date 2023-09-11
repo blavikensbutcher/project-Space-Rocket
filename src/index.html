@@ -35,5 +35,66 @@
     <load src="partials/footer.html" />
 
     <script type="module" src="/main.js"></script>
+
+    <!-- Mobile menu -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="modal-window-close-button-image" width="32" height="32">
+          <use href="./img/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#">About Us</a>
+        </li>
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#">Our Courses</a>
+        </li>
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#our-mentors">Our Mentors</a>
+        </li>
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#reviews">Reviews</a>
+        </li>
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+
+      <picture>
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/header/menu-tablet@1x.jpg 1x,
+            ./img/header/menu-tablet@2x.jpg 2x
+          "
+          width="480"
+        />
+        <!-- Mobile screen -->
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/header/menu-mobile@1x.jpg 1x,
+            ./img/header/menu-mobile@2x.jpg 2x
+          "
+        />
+        <img
+          srcset="
+            ./img/header/menu-mobile@1x.jpg 1x,
+            ./img/header/menu-mobile@2x.jpg 2x
+          "
+          src="./img/header/menu-mobile@1x.jpg"
+          width="329"
+          height="218"
+          alt="Camera"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+
+    <!-- End mobile menu -->
   </body>
 </html>
