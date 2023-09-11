@@ -218,3 +218,6 @@ ol {
 .div-li {
   padding: 28px;
 }
+.social-link-li-a:hover {
+  background-color: #bea69e;
+}
