@@ -136,14 +136,14 @@ ol {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   margin-top: 40px;
 }
 @media screen and (min-width: 768px) {
   .window-container {
     display: flex;
     /* column-gap: 20px; */
-    row-gap: 20px;
+    /* row-gap: 20px; */
     flex-wrap: wrap;
     justify-content: space-between;
   }
