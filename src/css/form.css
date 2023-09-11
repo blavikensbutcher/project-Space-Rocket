@@ -1,9 +1,9 @@
 /* 6-Sign-up-section */
 
 .form-container {
-  max-width: 335px;
+  min-width: 320px;
   margin-left: 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -43,7 +43,7 @@
   margin-bottom: 20px;
 }
 
-@media only screen and ((min-width: 768px) and (max-width:1440px)) {
+@media only screen and ((min-width: 768px) and (min-width: 1280px)) {
   .header-sign-up {
     font-size: 48px;
     letter-spacing: -0.03em;
@@ -57,7 +57,7 @@
   letter-spacing: -0.04em;
 }
 
-@media only screen and ((min-width: 768px) and (max-width:1440px)) {
+@media only screen and ((min-width: 768px) and (min-width:1280px)) {
   .up-color {
     font-size: 48px;
     letter-spacing: -0.03em;
@@ -71,23 +71,28 @@
   margin-bottom: 40px;
 }
 
-@media only screen and ((min-width: 768px) and (max-width:1440px)) {
+@media only screen and ((min-width: 768px) and (min-width:1280px)) {
   .paragraph-sign-up {
     font-size: 16px;
   }
 }
 
 .form-page {
-  min-width: 335px;
   display: flex;
   flex-direction: column;
   height: auto;
-  padding-right: 20px;
 }
 
-@media only screen and ((min-width: 768px) and (max-width:1440px)) {
+@media only screen and (min-width: 768px) {
   .form-page {
     max-width: 480px;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .form-page {
+    max-width: 540px;
     padding-right: 0;
   }
 }
@@ -108,14 +113,14 @@
   margin-bottom: 14px;
 }
 
-@media only screen and ((min-width: 768px) and (max-width:1440px)) {
+@media only screen and ((min-width: 768px) and (min-width:1280px)) {
   .form-page {
     font-size: 14px;
   }
 }
 
 .form-button {
-  max-width: 100%;
+  width: 100%;
   display: inline-flex;
   padding: 14px 127px;
   justify-content: center;
@@ -130,7 +135,7 @@
   text-transform: uppercase;
 }
 
-@media only screen and ((min-width: 768px) and (max-width: 1440px)) {
+@media only screen and ((min-width: 768px) and (min-width: 1280px)) {
   .form-button {
     padding: 16px 216px;
     font-size: 18px;
@@ -143,11 +148,12 @@
   line-height: 1.2;
 }
 
-@media only screen and ((min-width: 768px) and (max-width: 1440px)) {
+@media only screen and ((min-width: 768px) and (min-width: 1280px)) {
   .paragraph-privacy {
     font-size: 14px;
   }
 }
+
 .href-privecy {
   text-decoration-line: underline;
 }
@@ -176,7 +182,7 @@
   .sign-up-img-small {
     margin: 63px 18px;
     max-width: 288px;
-    margin-left: -20px;
+    margin-left: 0px;
   }
 
   .wrap-sign-up-foto2 {
