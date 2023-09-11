@@ -222,3 +222,7 @@ ol {
 .social-link-li-a:focus {
   background-color: #bea69e;
 }
+.social-link-li-a:hover .path-first,
+.social-link-li-a:hover .path-second {
+  stroke: white;
+}
