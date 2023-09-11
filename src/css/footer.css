@@ -17,6 +17,7 @@
         max-width: 768px;
         margin-right: auto;
         margin-left: auto;
+        background-size: contain;
     }
 }
 
