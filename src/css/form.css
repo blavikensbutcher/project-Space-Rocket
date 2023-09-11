@@ -133,6 +133,7 @@
   font-weight: 700;
   line-height: 1.5;
   text-transform: uppercase;
+  border: none;
 }
 
 @media only screen and ((min-width: 768px) and (min-width: 1280px)) {
