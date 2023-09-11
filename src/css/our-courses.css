@@ -59,7 +59,7 @@ ol {
     line-height: 1.12;
   }
 }
-.text {
+.text-course {
   color: #fff;
   font-family: DM Sans;
   font-size: 16px;
@@ -71,7 +71,7 @@ ol {
   margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
-  .text {
+  .text-course {
     max-width: 381px;
     font-size: 16px;
     font-weight: 400;
@@ -82,10 +82,15 @@ ol {
   }
 }
 @media screen and (min-width: 1280px) {
-  .text {
-    max-width: 568px;
+  .text-course {
+    max-width: 405px;
   }
 }
+/* @media screen and (min-width: 1440px) {
+  .text-course {
+    max-width: 565px;
+  } 
+} */
 .titel {
   color: #fff;
   font-family: DM Sans;
