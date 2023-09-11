@@ -3,11 +3,14 @@
 .form-container {
   max-width: 335px;
   margin-left: 0;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
   .form-container {
     min-width: 480px;
+    text-align: left;
+    margin-left: 0;
   }
 }
 
