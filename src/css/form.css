@@ -19,7 +19,7 @@
     min-width: 1080px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 60px;
     margin-left: 0;
   }
 }
@@ -29,7 +29,7 @@
     min-width: 1240px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 200px;
     margin-left: 0;
   }
 }
