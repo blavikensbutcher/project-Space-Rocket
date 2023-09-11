@@ -133,15 +133,15 @@ margin-right: 14px;
 }
 
 .nav-header {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
   
 }
 .nav-list {
-  display: flex;
-  align-items: center;  
-  gap: 20px;
-  text-transform: uppercase;
+display: flex;
+align-items: center;  
+gap: 20px;
+text-transform: uppercase;
 
 
 }
@@ -174,12 +174,17 @@ align-items: center;
 max-width: 1440px;
 }
 .header-nav-container {
-margin-right: 20px;    
+margin-right: 20px;
+width: 982px;    
 }
 
-.logo-header { 
-margin-right: 209px;      
+.logo-header {  
+margin-right: auto;     
  }
+ .nav-header {
+  margin-right: 50px;
+ }
+ 
  .nav-list {  
   gap: 40px;
  }
