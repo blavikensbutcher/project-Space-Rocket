@@ -126,7 +126,6 @@ ol {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
-  margin-top: 40px;
 }
 @media screen and (min-width: 768px) {
   .window-container {
@@ -207,4 +206,14 @@ ol {
 .social-link-li-a:hover .path-first,
 .social-link-li-a:hover .path-second {
   stroke: white;
+}
+@media screen and (max-width: 767px) {
+  .window-courses {
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .window-container {
+    row-gap: 20px;
+  }
 }
