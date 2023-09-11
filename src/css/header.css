@@ -92,7 +92,7 @@ display: flex;
 padding-top: 20px;
 align-items: center;
 justify-content: center; 
-padding: 16px 58px;
+padding: 16px 57px;
 color: #121212;
 font-family: DM Sans;
 font-size: 18px;
@@ -122,13 +122,10 @@ max-width: 1280px;
 .header-nav-container {
 width: 822px;
 margin-right: 14px;
-
 }
-.logo-header { 
- 
+.logo-header {  
   margin-right: 97px;
-  margin-left: 50px; 
-  
+  margin-left: 50px;   
 }
 
 .header-btn-hamburger {
@@ -144,6 +141,7 @@ margin-right: 14px;
   display: flex;
   align-items: center;  
   gap: 20px;
+  text-transform: uppercase;
 
 
 }
@@ -152,7 +150,7 @@ margin-right: 14px;
  align-items: center;
  display: flex;
  flex-wrap: wrap;
- 
+ text-transform: uppercase;
 }
 
 .nav-link-header { 
@@ -167,7 +165,7 @@ align-items: center;
 
 }
 .header-sign-link {
-  padding: 16px 84px;
+  padding: 16px 83px;
   width: 238px;  
 }
 }
