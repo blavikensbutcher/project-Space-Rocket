@@ -138,7 +138,7 @@
 .hero-subtitle {
     display: flex;
     min-width: 107px;
-    line-height: 1.28;    /* 128.571% */
+    line-height: 1.28;   /* 128.571% */
 }
 
 .hero-icon {
