@@ -1,6 +1,9 @@
 ol {
   padding: 0;
 }
+.section-courses {
+  box-sizing: content-box;
+}
 /* .body {
   background-color: #121212;
   font-family: 'DM Sans', sans-serif;
@@ -112,6 +115,7 @@ ol {
   }
   .window-courses {
     width: 342px;
+    flex-basis: calc((100% - 20px) / 2);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -138,7 +142,6 @@ ol {
     row-gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-basis: calc((100% - 20px) / 2);
   }
 }
 @media screen and (min-width: 1280px) {
