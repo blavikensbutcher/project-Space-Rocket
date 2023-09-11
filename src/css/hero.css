@@ -176,5 +176,6 @@
 }
 
 .hero-img {
-    background-image: var(--gray);
+    border-radius: 30px;
+    background: #1D1D1D;
 }
