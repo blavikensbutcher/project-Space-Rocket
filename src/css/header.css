@@ -13,7 +13,8 @@ display: flex;
   align-items: center;  
   display: flex; 
   margin-top: 20px; 
-  text-align: left; 
+  text-align: left;
+   
   
 }
 
@@ -94,6 +95,9 @@ max-width: 768px;
 
 .camera-icon-header {
   display: none;
+}
+.header-sign-link {
+padding-top: 20px;
 }
 .header-open-sign {
   display: flex;
