@@ -88,18 +88,21 @@ letter-spacing: -1.12px;
 }
 .subtitel-mentor{
 color: var(--white);
-text-align: center;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
 }
+@media screen and (min-width: 768px) {
+    .subtitel-mentor{
+        font-size: 28px;
+        line-height: 1.14286; /* 114.286% */
+}
+}
 .mentors-text{
-color: rgba(255, 255, 255, 0.50);
-text-align: center;
-font-size: 12px;
-font-weight: 400;
-line-height: 1.33; /* 133.333% */
-letter-spacing: -0.24px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    line-height: 1.3333; /* 133.333% */
+    letter-spacing: -0.24px;
 }
 @media screen and (min-width: 768px) {
     .mentors-text{
