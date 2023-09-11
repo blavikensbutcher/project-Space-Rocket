@@ -3,39 +3,6 @@
   | FOOTER
   |============================
 */
-
-.my-container {
-    max-width: 335px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
-
-@media screen and (min-width: 768px) {
-    .my-container {
-        max-width: 768px;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .my-container {
-        max-width: 1280px;
-
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .container {
-        margin-bottom: 1241px;
-    }
-}
-
-
-
 .footer {
     padding: 0 20px 0;
     background-image: url(../img/hero/Graphic.png);
