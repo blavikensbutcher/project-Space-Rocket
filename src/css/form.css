@@ -110,7 +110,7 @@
 
 @media only screen and ((min-width: 768px) and (max-width:1440px)) {
   .form-page {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -156,15 +156,13 @@
   display: none;
 }
 
-@media only screen and ((min-width: 1280px) and (max-width: 1440px)) {
+@media only screen and (min-width: 1280px) {
   .sign-up-foto {
     max-width: 560px;
     height: 540px;
     display: flex;
     gap: 20px;
-    padding-left: 180px;
     margin-left: auto;
-    margin-right: auto;
   }
 
   .wrap-sign-up-foto1 {
