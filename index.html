@@ -20,8 +20,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/project-Space-Rocket/assets/index-dbab30ef.js"></script>
-    <link rel="stylesheet" href="/project-Space-Rocket/assets/index-eeb2cfb5.css">
+    <script type="module" crossorigin src="/project-Space-Rocket/assets/index-62db2757.js"></script>
+    <link rel="stylesheet" href="/project-Space-Rocket/assets/index-5eef86d9.css">
   </head>
   <body>
     
@@ -29,16 +29,16 @@
   <div class="container header-container ">
     
     <div class="header-nav-container">
-   
   <svg class="Logo logo-header" width="134" height="27">
     <use href="/project-Space-Rocket/assets/sprite-dbfaa908.svg#icon-logo"></use> 
   </svg> 
+
   <a class="header-btn-camera link" href="" ><svg class="camera-icon-header" width="16" height="16">
     <use href="/project-Space-Rocket/assets/sprite-dbfaa908.svg#icon-camera"></use>
   </svg></a>  
 
 
-<button id="myButton" class="header-btn-hamburger" type="button" data-modal-open>
+<button id="myButton" class="menu-toggle js-open-menu" type="button" data-modal-open>
   <svg class="hamburger-icon" width="32" height="32">
     <use href="/project-Space-Rocket/assets/sprite-dbfaa908.svg#icon-burger-menu"></use>
   </svg>
@@ -54,8 +54,7 @@
   </ul>
   </nav>  
 </div>
-  <a href="" class="header-sign-link link">Sign up
-</a>
+  <a href="" class="header-sign-link link">Sign up</a>
   </div>
  
 </header>
@@ -422,5 +421,60 @@
 
 
     
+
+    <!-- Mobile menu -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="modal-window-close-button-image" width="32" height="32">
+          <use href="/project-Space-Rocket/assets/sprite-dbfaa908.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#">About Us</a>
+        </li>
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#">Our Courses</a>
+        </li>
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#our-mentors">Our Mentors</a>
+        </li>
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#reviews">Reviews</a>
+        </li>
+        <li class="burger-menu-item">
+          <a class="burger-link link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+
+      <picture>
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/header/menu-tablet@1x.jpg 1x,
+            ./img/header/menu-tablet@2x.jpg 2x
+          "
+          width="480"
+        />
+        <!-- Mobile screen -->
+        <source
+          media="(max-width: 767px)"
+          srcset="/project-Space-Rocket/assets/menu-mobile@1x-53080ace.jpg 1x, /project-Space-Rocket/assets/menu-mobile@2x-72a01497.jpg 2x"
+        />
+        <img
+          srcset="/project-Space-Rocket/assets/menu-mobile@1x-53080ace.jpg 1x, /project-Space-Rocket/assets/menu-mobile@2x-72a01497.jpg 2x"
+          src="/project-Space-Rocket/assets/menu-mobile@1x-53080ace.jpg"
+          width="329"
+          height="218"
+          alt="Camera"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+
+    <!-- End mobile menu -->
   </body>
 </html>
