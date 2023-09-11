@@ -42,6 +42,7 @@
     background-repeat: repeat;
     background-position: center;
     margin-bottom: 20px;
+    background-size: contain;
 }
 
 @media screen and (min-width: 768px) {
@@ -53,7 +54,7 @@
         background-image: url(../img/footer/footer-bg-tablet@1x.png);
         background-repeat: repeat;
         margin-bottom: 25px;
-        background-size: contain;
+
     }
 }
 
