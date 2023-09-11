@@ -19,9 +19,7 @@ display: flex;
 }
 
 .logo-header {
-  fill: #ffffff;
-  width: 123px;
-  height: 16px;   
+  fill: #ffffff;    
   justify-content: center;
   align-items: center;
   margin-right: auto;
@@ -89,10 +87,6 @@ max-width: 768px;
  flex-wrap: nowrap;
  gap: 14px;
  
-}
-.logo-header {  
-  margin-right: 301px; 
-  margin-top: 20px; 
 }
 
 .camera-icon-header {
