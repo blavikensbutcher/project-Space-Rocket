@@ -244,6 +244,14 @@
     align-items: baseline;
     flex-direction: row;
     gap: 8px;
+
+    /* for chr */
+    justify-content: space-between;
+}
+
+/* for chr */
+.form-label {
+    flex-grow: 1;
 }
 
 .footer-form-input {
