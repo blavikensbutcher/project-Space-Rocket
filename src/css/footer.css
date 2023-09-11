@@ -17,7 +17,7 @@
         max-width: 768px;
         margin-right: auto;
         margin-left: auto;
-        background-size: contain;
+
     }
 }
 
@@ -53,6 +53,7 @@
         background-image: url(../img/footer/footer-bg-tablet@1x.png);
         background-repeat: repeat;
         margin-bottom: 25px;
+        background-size: contain;
     }
 }
 
