@@ -167,6 +167,10 @@ display: flex;
 align-items: center;
 
 }
+.nav-link-header:hover,
+.nav-link-header:focus {
+  color: rgba(190, 166, 158, 1);
+}
 .header-sign-link {
   padding: 16px 83px;
   width: 238px;  
