@@ -1,24 +1,4 @@
-div.container.adjust-container {}
-
-@media only screen and (min-width: 375px) {
-    div.container.adjust-container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    div.container.adjust-container {
-        max-width: 1240px;
-    }
-}
-
 .review-title {
-    color: var(--white);
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
     padding-bottom: 40px;
 }
 
