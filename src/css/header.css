@@ -32,7 +32,9 @@
   margin-right: 14px;
 }
 
-.header-btn-camera:active {
+.header-btn-camera:active,
+.header-btn-camera:hover,
+.header-btn-camera:focus {
   fill: #BEA69E;
 }
 
