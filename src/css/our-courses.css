@@ -34,6 +34,7 @@ ol {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
+  margin-bottom: 20px;
 }
 .courses {
   color: #bea69e;
@@ -128,14 +129,16 @@ ol {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 @media screen and (min-width: 768px) {
   .window-container {
     display: flex;
-    column-gap: 20px;
+    /* column-gap: 20px; */
     row-gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-basis: calc((100% - 20px) / 2);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -189,7 +192,7 @@ ol {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-section-people-icon {
-  fill: #f4f4fd;
+  /* fill: #f4f4fd; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-li {
