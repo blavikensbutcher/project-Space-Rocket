@@ -41,6 +41,9 @@ fill: #BEA69E66;
 margin: 8PX;
 display: flex; 
 }
+.camera-icon-header.is-active {
+  display: block;
+}
 
 .header-sign-link,
 .nav-list {
@@ -174,8 +177,8 @@ align-items: center;
 max-width: 1440px;
 }
 .header-nav-container {
-margin-right: 50px;
-width: 982px;    
+width: 982px;
+margin-right: 20px;    
 }
 
 .logo-header {  
