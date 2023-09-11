@@ -1,7 +1,7 @@
 ol {
   padding: 0;
 }
-.section-courses {
+.box-sizing {
   box-sizing: content-box;
 }
 /* .body {
@@ -115,7 +115,6 @@ ol {
   }
   .window-courses {
     width: 342px;
-    flex-basis: calc((100% - 20px) / 2);
   }
 }
 @media screen and (min-width: 1280px) {
