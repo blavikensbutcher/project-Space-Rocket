@@ -116,6 +116,7 @@
   border: 1px solid rgba(0, 51, 153, 0.5);
   background-color: #fff;
   padding: 15px 10px;
+  z-index: 999;
 }
 
 
@@ -136,6 +137,6 @@
 }
 
 .menu-container.js-menu-container.is-open {
-  animation: zoomInRight; /* referring directly to the animation's @keyframe declaration */
+  animation: zoomInRight; 
   animation-duration: 2s;
 }
