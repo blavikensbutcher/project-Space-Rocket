@@ -51,6 +51,14 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+}
+
+
+
 @media only screen and (min-width: 1440px) and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
@@ -60,7 +68,7 @@
 }
 
 
-.footer-box {}
+
 
 /* logo */
 .footer-logo-box {
@@ -158,6 +166,7 @@
 .footer-so-link {
     text-transform: uppercase;
     font-size: 14px;
+    transition: color 250ms ease-in-out;
 }
 
 .footer-so-link:hover,
@@ -191,6 +200,7 @@
 .footer-nav-list-item {
     font-size: 14px;
     text-transform: uppercase;
+    transition: color 250ms ease-in-out;
 }
 
 .footer-nav-list-item:hover,

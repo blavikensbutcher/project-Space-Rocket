@@ -134,6 +134,12 @@
   line-height: 1.5;
   text-transform: uppercase;
   border: none;
+  transition: background-color 250ms ease-in-out;
+}
+
+.form-button:hover,
+.form-button:focus {
+  background-color: rgba(175, 175, 175, 0.849)
 }
 
 @media only screen and ((min-width: 768px) and (min-width: 1280px)) {

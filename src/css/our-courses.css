@@ -160,16 +160,16 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms ease-in-out;
 }
 .svg-section-people-icon {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms ease-in-out;
 }
 .social-link-li {
   width: 32px;
   height: 32px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms ease-in-out;
 }
 .wraper {
   display: flex;
@@ -193,6 +193,9 @@ ol {
 .social-link-li-a:hover .path-second {
   stroke: white;
 }
+
+
+
 @media screen and (max-width: 767px) {
   .window-courses {
     margin-top: 40px;

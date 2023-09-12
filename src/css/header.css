@@ -39,6 +39,10 @@
 }
 
 .camera-icon-header {
+  transition: fill 250ms ease-in-out;
+}
+
+.camera-icon-header {
   fill: #bea69e66;
   margin: 8px;
   display: flex;
@@ -99,6 +103,7 @@
     height: 60px;
     margin-top: 20px;
     text-transform: uppercase;
+    transition: color 250ms ease-in-out;
   }
 
   .header-sign-link:hover,
@@ -152,11 +157,14 @@
     line-height: normal;
     display: flex;
     align-items: center;
+    transition: color 250ms ease-in-out;
   }
   .nav-link-header:hover,
   .nav-link-header:focus {
     color: rgba(190, 166, 158, 1);
   }
+
+
   .header-sign-link {
     padding: 16px 83px;
     width: 238px;
