@@ -227,6 +227,12 @@
 
 .hero-icon-arrow {
     fill: var(--white);
+    transition: fill 250ms ease-in-out;
+}
+
+hero-icon-arrow:focus,
+hero-icon-arrow:hover {
+    fill: rgba(147, 137, 137, 0.5)
 }
 
 .hero-reviews-container {
