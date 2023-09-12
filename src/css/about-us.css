@@ -176,8 +176,6 @@
         height: 215px;
     }
 }
-
-/* 1440 */
 @media screen and (min-width: 1440px) {
     .container {
         min-width: 1080px;
