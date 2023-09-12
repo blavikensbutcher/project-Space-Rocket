@@ -1,0 +1,364 @@
+.hero-container {
+    position: relative;
+    width: 335px;
+    height: 777px;
+    padding: 40px 0px;
+    border-radius: 30px;
+    background: var(--gray);
+}
+
+@media screen and (min-width: 768px) {
+    .hero-container {
+        width: 704px;
+        height: 900px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-container {
+        padding: 64px 0px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-container {
+        padding: 80px 0px;
+        width: 1080px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-container {
+        width: 1240px;
+        height: 600px;
+    }
+}
+
+.hero-title-container {
+    margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-title-container {
+        margin: 0 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-title-container {
+        margin: 0px 50px;
+    }
+}
+
+.hero-title {
+    min-width: 295px;
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    /* 110% */
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-title {
+        max-width: 517px;
+        font-size: 60px;
+        line-height: 1.07;
+        /* 106.667% */
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-title {
+        min-width: 563px;
+        font-size: 64px;
+        line-height: 1.06;
+        /* 106.25% */
+    }
+}
+
+.span-title {
+    color: var(--brown);
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+@media screen and (min-width: 768px) {
+    .span-title {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .span-title {
+        font-size: 64px;
+    }
+}
+
+.hero-text {
+    max-width: 295px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    /* 128.571% */
+    letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-text {
+        min-width: 418px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-text {
+        max-width: 418px;
+    }
+}
+
+.hero-student-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-student-container {
+        margin-left: 32px;
+        margin-top: 40px;
+        align-items: normal;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-student-container {
+        margin-left: 50px;
+        margin-top: 136px;
+    }
+}
+
+.hero-student-picture {
+    display: flex;
+    max-width: 107px;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-student-picture {
+        flex-wrap: nowrap;
+    }
+}
+
+.hero-user-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: 2px solid var(--gray);
+}
+
+@media screen and (min-width: 768px) {
+    .hero-student-picture {
+        min-width: 135px;
+        min-height: 54px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero-title-container {
+        margin-top: 0;
+    }
+}
+
+.hero-student-icon {
+    display: inline-flex;
+    align-content: center;
+    gap: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-student-icon {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-student-icon {}
+}
+
+.hero-subtitle {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    /* 128.571% */
+}
+
+@media screen and (min-width: 768px) {
+    .hero-subtitle {
+        width: 82px;
+        margin-right: 40px;
+    }
+}
+
+.hero-icon-arrow {
+    fill: var(--white);
+}
+
+.hero-reviews-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-reviews-container {
+        margin-left: 97px;
+    }
+}
+
+.hero-icon-container {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: var(--brown);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-icon-review {
+    stroke: var(--gray);
+    fill: var(--brown);
+}
+
+@media screen and (mix-width: 768px) {
+    .hero-icon-container {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (mix-width: 1280px) {
+    .hero-icon-container {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.hero-reviews-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-reviews-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28em;
+    /* 128.571% */
+}
+
+@media screen and (mix-width: 768px) {
+    .hero-reviews-text {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-reviews-text {
+        margin-bottom: 8px;
+        font-size: 16px;
+        line-height: 1.25;
+        /* 125% */
+    }
+}
+
+.hero-reviews-desc {
+    max-width: 57px;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 1.12;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+}
+
+@media screen and (mix-width: 768px) {
+    .hero-reviews-desc {
+        margin-bottom: 8px;
+        line-height: 1.25;
+        /* 125% */
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-reviews-text {
+        margin-bottom: 8px;
+        line-height: 1.25;
+        /* 125% */
+    }
+}
+
+.hero-picture-container {
+    margin: 38px;
+}
+
+.white-arrow {
+    margin-top: 9px;
+}
+
+@media screen and (min-width: 768px) {
+    .white-arrow {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+}
+
+.hero-img {
+    position: absolute;
+    bottom: 0;
+    right: auto;
+    left: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-img {
+        width: 393px;
+        height: 434px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .hero-img {
+        left: 150px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-img {
+        width: 397px;
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .hero-img {
+        right: 50px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-img {
+        right: 100px;
+    }
+}
