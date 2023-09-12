@@ -124,8 +124,12 @@
   color: var(--brown);
   border: 1px solid var(--brown);
   background-color: #1d1d1d;
+  transition: background-color 250ms ease-in-out;
 }
 
+.go-top.animate__animated.animate__backInUp:hover {
+  background-color: #fff;
+}
 
 .go-top--show {
   display: block;
