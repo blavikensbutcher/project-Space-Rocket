@@ -347,3 +347,12 @@
   |============================
 */
 
+.mobile-menu-image {
+  transform: translate(0px, 2px);
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu-image {
+    transform: translate(0px, -115px);
+  }
+}
