@@ -1,0 +1,216 @@
+.list {
+    list-style: none;
+}
+
+.about-us {
+    background: var(--black, #121212);
+}
+
+.about-us-title {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.07em;
+    margin-bottom: 50px;
+}
+
+.about-us-title2 {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.07em;
+}
+
+.about-us-image {
+    min-width: 335px;
+    height: 209px;
+    border-radius: 1000px;
+    margin: 40px 0;
+}
+
+.about-us-list {
+    display: flex;
+    gap: 20px;
+}
+
+.about-us-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: 0.018em;
+}
+
+/* 768 */
+@media screen and (min-width: 768px) {
+    .about-us-title {
+        font-size: 48px;
+        line-height: 1.12px;
+        letter-spacing: 0.12em;
+    }
+
+    .about-us-title2 {
+        font-size: 48px;
+        line-height: 1.12px;
+        letter-spacing: 0.12em;
+    }
+
+    .about-us-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us-image {
+        display: inline-block;
+        min-width: 704px;
+        height: 340px;
+        border-radius: 1000px;
+        background: url(<path-to-image>),
+            lightgray -34258429908268924px -804566253738116900px / 866193247329631900% 330336396212698600% no-repeat;
+        margin: 50px 0;
+    }
+
+    .about-us-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .about-us-item {
+        flex-basis: calc((100% - 40px) / 2);
+        margin-bottom: auto;
+    }
+
+    .about-us-text {
+        width: 280px;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+    }
+}
+
+/* 1280 */
+@media screen and (min-width: 1280px) {
+    .about-us-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12px;
+        letter-spacing: -0.12em;
+    }
+
+    .about-us-title2 {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12px;
+        letter-spacing: -0.12em;
+    }
+
+    .about-us-flex {
+        display: flex;
+        flex-wrap: nowrap;
+        height: 340px;
+    }
+
+    .about-us-image {
+        display: inline-block;
+        min-width: 488px;
+        height: 340px;
+        border-radius: 1000px;
+        margin: 50px 0;
+    }
+
+    .about-us-list {
+        margin-top: 40px;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-us-item {
+        flex-basis: calc((100% - 20px) / 2);
+    }
+
+    .about-us-text {
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+    }
+
+    .about-us-item:last-child {
+        width: 276px;
+        height: 215px;
+    }
+}
+
+/* 1440 */
+@media screen and (min-width: 1440px) {
+    .about-us-title {
+        min-width: 196px;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12px;
+        letter-spacing: -0.12em;
+    }
+
+    .about-us-title2 {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12px;
+        letter-spacing: -0.12em;
+    }
+
+    .about-us-flex {
+        display: flex;
+    }
+
+    .about-us-image {
+        display: inline-block;
+        min-width: 488px;
+        height: 340px;
+        border-radius: 1000px;
+        margin: 50px 0;
+    }
+
+    .about-us-list {
+        margin-top: 62px;
+        gap: 40px;
+        display: flex;
+        margin-left: 50px;
+    }
+}
+
+.about-us-camera {
+    border-radius: 1000px;
+    width: 335px;
+    height: 209px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-camera {
+        width: 704px;
+        height: 340px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us-camera {
+        width: 488px;
+        height: 340px;
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about-us-camera {
+        width: 500px;
+        height: 345px;
+        margin-bottom: 150px;
+    }
+}
