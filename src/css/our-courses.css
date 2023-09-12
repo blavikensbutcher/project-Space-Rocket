@@ -1,28 +1,7 @@
 ol {
   padding: 0;
 }
-.box-sizing {
-  box-sizing: content-box;
-}
-.container {
-  max-width: 335px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
+
 .our {
   color: #fff;
   font-family: DM Sans;
@@ -133,7 +112,7 @@ ol {
   .window-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 20px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -158,7 +137,7 @@ ol {
 @media screen and (min-width: 768px) {
   .section-titel {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 58px;
     padding-bottom: 50px;
@@ -166,7 +145,6 @@ ol {
 }
 @media screen and (min-width: 1280px) {
   .section-titel {
-    gap: 410px;
     display: flex;
     justify-content: space-between;
     align-items: center;

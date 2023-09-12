@@ -4,7 +4,6 @@
   |============================
 */
 .footer {
-    padding: 0 20px 0;
     background-image: url(../img/hero/Graphic.png);
     background-repeat: repeat;
     background-position: center;
@@ -14,9 +13,6 @@
 
 @media screen and (min-width: 768px) {
     .footer {
-
-        padding-left: 32px;
-        padding-right: 32px;
 
         background-image: url(../img/footer/footer-bg-tablet@1x.png);
         background-repeat: repeat;
@@ -36,8 +32,6 @@
 
 @media screen and (min-width: 1280px) {
     .footer {
-        padding-left: 100px;
-        padding-right: 100px;
         background-image: url(../img/footer/footer-bg-desktop@1x.png);
     }
 }
@@ -79,9 +73,13 @@
     }
 }
 
+@media screen and (min-width: 1280px) {
+    .footer-logo-box {
+        margin-right: 148px;
+    }
+}
 
 
-@media screen and (min-width: 768px) {}
 
 
 .icon-svg-logo {
@@ -236,13 +234,13 @@
 
 @media screen and (min-width: 768px) {
     .footer-form-input {
-        max-width: 178px;
+        width: 178px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .footer-form-input {
-        max-width: 216px;
+        width: 216px;
     }
 }
 
