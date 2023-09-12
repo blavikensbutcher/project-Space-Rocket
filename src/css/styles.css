@@ -134,3 +134,8 @@
 .go-top--show {
   display: block;
 }
+
+.menu-container.js-menu-container.is-open {
+  animation: zoomInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
