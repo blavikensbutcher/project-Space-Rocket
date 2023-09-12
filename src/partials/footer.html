@@ -76,8 +76,10 @@
             name="email"
             type="email"
             placeholder="Enter your email"
-            pattern="@"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             required
+            inputmode="email"
+            minlength="4"
           />
         </label>
 
