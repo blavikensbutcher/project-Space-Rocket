@@ -52,6 +52,9 @@ ol {
     margin-bottom: 50px;
     text-align: left;
   }
+  .titel {
+    max-width: 265px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .text-course {
@@ -66,7 +69,6 @@ ol {
   font-style: normal;
   font-weight: 500;
   line-height: 1.14em;
-  max-width: 224px;
   padding-bottom: 164px;
 }
 .titel-text {
@@ -212,6 +214,9 @@ ol {
     padding-right: 32px;
     max-width: 768px;
   }
+  .titel {
+    padding-bottom: 180px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .container-courses {
@@ -232,5 +237,17 @@ ol {
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
+  }
+  .window-courses {
+    width: 400px;
+  }
+  .titel {
+    padding-bottom: 200px;
+  }
+  .wraper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 290px;
   }
 }
