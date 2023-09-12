@@ -1,3 +1,5 @@
+
+
 .header-container {
   margin-left: 20px;
   padding-left: 0;
@@ -13,6 +15,7 @@
   display: flex;
   margin-top: 20px;
   text-align: left;
+  background-color: var(--black);
 }
 
 .logo-header {
