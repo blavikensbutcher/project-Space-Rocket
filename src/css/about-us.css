@@ -46,8 +46,7 @@
     gap: 20px;
 }
 
-.about-us-text,
-.about_us_text1 {
+.about-us-text {
     width: 335px;
     color: var(--white, #fff);
     font-family: DM Sans;
@@ -58,6 +57,7 @@
     letter-spacing: 0.018em;
 }
 
+/* 768 */
 @media screen and (min-width: 768px) {
     .container {
         min-width: 630px;
@@ -109,15 +109,9 @@
         line-height: 1.25;
         letter-spacing: 0.02em;
     }
-
-    .about_us_text1 {
-        width: 280px;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.02em;
-    }
 }
 
+/* 1280 */
 @media screen and (min-width: 1280px) {
     .container {
         min-width: 1080px;
@@ -146,8 +140,8 @@
 
     .about-us-image {
         display: inline-block;
-        min-width: 340px;
-        height: 488px;
+        min-width: 488px;
+        height: 340px;
         border-radius: 1000px;
         background: url(<path-to-image>),
             lightgray -34258429908268924px -804566253738116900px / 866193247329631900% 330336396212698600% no-repeat;
@@ -168,15 +162,10 @@
     }
 
     .about-us-text {
-        width: 268px;
+        width: 264px;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: 0.02em;
-    }
-
-    .about_us_text1 {
-        width: 264px;
-        height: 215px;
     }
 }
 
@@ -202,7 +191,7 @@
         letter-spacing: -0.12em;
     }
 
- .about-us-flex {
+    .about-us-flex {
         display: flex;
         flex-wrap: wrap;
         /* gap: 40; */
@@ -210,7 +199,8 @@
 
     .about-us-image {
         display: inline-block;
-        height: 544px;
+        min-width: 488px;
+        height: 340px;
         border-radius: 1000px;
         background: url(<path-to-image>),
             lightgray -34258429908268924px -804566253738116900px / 866193247329631900% 330336396212698600% no-repeat;
@@ -221,14 +211,5 @@
         margin-top: 62px;
         gap: 40px;
         display: flex;
-        flex-wrap: wra
+        flex-wrap: wra}
     }
-
-    .about-us-text {
-        width: 330px;
-    }
-
-    .about_us_text1 {
-        width: 276px;
-    }
-}
