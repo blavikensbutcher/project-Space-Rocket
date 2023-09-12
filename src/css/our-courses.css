@@ -1,7 +1,6 @@
 ol {
   padding: 0;
 }
-
 .our {
   color: #fff;
   font-family: DM Sans;
@@ -53,6 +52,9 @@ ol {
     margin-bottom: 50px;
     text-align: left;
   }
+  .titel {
+    max-width: 265px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .text-course {
@@ -67,7 +69,6 @@ ol {
   font-style: normal;
   font-weight: 500;
   line-height: 1.14em;
-  max-width: 224px;
   padding-bottom: 164px;
 }
 .titel-text {
@@ -200,5 +201,53 @@ ol {
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .window-container {
     row-gap: 20px;
+  }
+}
+.container-courses {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 375px;
+}
+@media screen and (min-width: 768px) {
+  .container-courses {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 768px;
+  }
+  .titel {
+    padding-bottom: 180px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-courses {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1280px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container-courses {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1440px;
+  }
+  .window-container {
+    display: flex;
+    width: 1240px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .window-courses {
+    width: 400px;
+  }
+  .titel {
+    padding-bottom: 200px;
+  }
+  .wraper {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 290px;
   }
 }
