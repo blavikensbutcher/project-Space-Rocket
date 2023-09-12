@@ -1,7 +1,17 @@
 .hero-container {
+    position: relative;
+    width: 335px;
+    height: 777px;
     padding: 40px 0px;
     border-radius: 30px;
     background: var(--gray);
+}
+
+@media screen and (min-width: 768px) {
+    .hero-container {
+        width: 704px;
+        height: 900px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -13,6 +23,15 @@
 @media screen and (min-width: 1280px) {
     .hero-container {
         padding: 80px 0px;
+        width: 1080px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-container {
+        width: 1240px;
+        height: 600px;
     }
 }
 
@@ -22,13 +41,13 @@
 
 @media screen and (min-width: 768px) {
     .hero-title-container {
-        margin: 32px;  
+        margin: 0 32px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .hero-title-container {
-        margin: 50px;
+        margin: 0px 50px;
     }
 }
 
@@ -37,7 +56,8 @@
     color: var(--white);
     font-size: 40px;
     font-weight: 500;
-    line-height: 1.1;    /* 110% */
+    line-height: 1.1;
+    /* 110% */
     margin-bottom: 20px;
 }
 
@@ -45,7 +65,8 @@
     .hero-title {
         max-width: 517px;
         font-size: 60px;
-        line-height: 1.07;    /* 106.667% */
+        line-height: 1.07;
+        /* 106.667% */
     }
 }
 
@@ -53,7 +74,8 @@
     .hero-title {
         min-width: 563px;
         font-size: 64px;
-        line-height: 1.06;      /* 106.25% */
+        line-height: 1.06;
+        /* 106.25% */
     }
 }
 
@@ -82,7 +104,8 @@
     color: var(--white);
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.28; /* 128.571% */
+    line-height: 1.28;
+    /* 128.571% */
     letter-spacing: -0.02em;
 }
 
@@ -106,10 +129,11 @@
     margin-left: 20px;
 }
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 768px) {
     .hero-student-container {
         margin-left: 32px;
-        margin-top: 40px;     
+        margin-top: 40px;
+        align-items: normal;
     }
 }
 
@@ -127,18 +151,29 @@
     flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px) {
+    .hero-student-picture {
+        flex-wrap: nowrap;
+    }
+}
+
 .hero-user-img {
     width: 100%;
     height: 100%;
     border-radius: 100px;
     border: 2px solid var(--gray);
-    }   
+}
 
-@media screen and (mix-width: 768px) {
-    .hero-user-img {
-        width: 54px;
-        height: 54px;
-        border: 3px solid var(--gray);
+@media screen and (min-width: 768px) {
+    .hero-student-picture {
+        min-width: 135px;
+        min-height: 54px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero-title-container {
+        margin-top: 0;
     }
 }
 
@@ -151,20 +186,27 @@
 @media screen and (min-width: 768px) {
     .hero-student-icon {
         display: flex;
+        flex-direction: column;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-student-icon {
-     
-    }
+    .hero-student-icon {}
 }
 
 .hero-subtitle {
     display: flex;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.28;   /* 128.571% */
+    line-height: 1.28;
+    /* 128.571% */
+}
+
+@media screen and (min-width: 768px) {
+    .hero-subtitle {
+        width: 82px;
+        margin-right: 40px;
+    }
 }
 
 .hero-icon-arrow {
@@ -175,6 +217,12 @@
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-reviews-container {
+        margin-left: 97px;
+    }
 }
 
 .hero-icon-container {
@@ -190,7 +238,6 @@
 .hero-icon-review {
     stroke: var(--gray);
     fill: var(--brown);
-
 }
 
 @media screen and (mix-width: 768px) {
@@ -213,10 +260,11 @@
 }
 
 .hero-reviews-text {
-    color: rgba(255, 255, 255, 0.50);
-    font-size: 14px;    
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
     font-weight: 400;
-    line-height: 1.28em;    /* 128.571% */
+    line-height: 1.28em;
+    /* 128.571% */
 }
 
 @media screen and (mix-width: 768px) {
@@ -229,7 +277,8 @@
     .hero-reviews-text {
         margin-bottom: 8px;
         font-size: 16px;
-        line-height: 1.25;    /* 125% */
+        line-height: 1.25;
+        /* 125% */
     }
 }
 
@@ -237,28 +286,79 @@
     max-width: 57px;
     color: var(--white);
     font-size: 16px;
-    line-height: 1.12;    /* 112.5% */
+    line-height: 1.12;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.04em;
 }
 
 @media screen and (mix-width: 768px) {
     .hero-reviews-desc {
         margin-bottom: 8px;
-        line-height: 1.25;     /* 125% */
+        line-height: 1.25;
+        /* 125% */
     }
 }
 
 @media screen and (min-width: 1280px) {
     .hero-reviews-text {
         margin-bottom: 8px;
-        line-height: 1.25;    /* 125% */
+        line-height: 1.25;
+        /* 125% */
     }
 }
 
 .hero-picture-container {
     margin: 38px;
-
 }
 
-.hero-picture {
-    
+.white-arrow {
+    margin-top: 9px;
+}
+
+@media screen and (min-width: 768px) {
+    .white-arrow {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+}
+
+.hero-img {
+    position: absolute;
+    bottom: 0;
+    right: auto;
+    left: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-img {
+        width: 393px;
+        height: 434px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .hero-img {
+        left: 150px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-img {
+        width: 397px;
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .hero-img {
+        right: 50px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-img {
+        right: 100px;
+    }
 }
