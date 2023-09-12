@@ -96,3 +96,37 @@
 .hero-bg {
   background-image: url('../img/hero/Graphic.png')
 }
+
+/**
+  |============================
+  | go to top
+  |============================
+*/
+
+
+
+.go-top {
+  position: fixed; 
+  right: 50px; 
+  bottom:50px; 
+  cursor: pointer; 
+  display: none;
+  font-size: 20px; 
+  color: rgba(0, 51, 153, 0.5);
+  border: 1px solid rgba(0, 51, 153, 0.5);
+  background-color: #fff;
+  padding: 15px 10px;
+}
+
+
+
+.go-top.animate__animated.animate__backInUp {
+  color: var(--brown);
+  border: 1px solid var(--brown);
+  background-color: #1d1d1d;
+}
+
+
+.go-top--show {
+  display: block;
+}

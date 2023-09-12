@@ -113,6 +113,8 @@
   .header-sign-link:focus {
     background-color: rgba(29, 29, 29, 1);
     color: rgba(190, 166, 158, 1);
+    animation: headShake;
+    animation-duration: 2s;
   }
 }
 
@@ -165,6 +167,8 @@
   .nav-link-header:hover,
   .nav-link-header:focus {
     color: rgba(190, 166, 158, 1);
+    animation: headShake;
+  animation-duration: 1s; 
   }
 
 
@@ -358,4 +362,19 @@
   .mobile-menu-image {
     transform: translate(0px, -115px);
   }
+}
+
+/**
+  |============================
+  | animation
+  |============================
+*/
+
+.header-logo-link {
+  margin-right: auto;
+}
+
+.header-logo-link:hover {
+  animation: headShake;
+  animation-duration: 1s; 
 }
