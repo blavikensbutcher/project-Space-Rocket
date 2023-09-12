@@ -15,6 +15,7 @@
 @import url('./form.css');
 @import url('./reviews.css');
 @import url('./footer.css');
+@import url('animate.css');
 
 .container {
   max-width: 375px;
