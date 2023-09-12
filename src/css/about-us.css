@@ -1,16 +1,5 @@
-.list {
-    list-style: none;
-}
-
-.about-us {
-    background: var(--black, #121212);
-}
-
 .about-us-title {
-    color: #fff;
-    font-family: DM Sans;
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.07em;
@@ -19,9 +8,7 @@
 
 .about-us-title2 {
     color: #bea69e;
-    font-family: DM Sans;
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.07em;
@@ -63,16 +50,6 @@
     .about-us-flex {
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .about-us-image {
-        display: inline-block;
-        min-width: 704px;
-        height: 340px;
-        border-radius: 1000px;
-        background: url(<path-to-image>),
-            lightgray -34258429908268924px -804566253738116900px / 866193247329631900% 330336396212698600% no-repeat;
-        margin: 50px 0;
     }
 
     .about-us-list {
