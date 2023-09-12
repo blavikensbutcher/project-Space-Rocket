@@ -103,7 +103,7 @@
     height: 60px;
     margin-top: 20px;
     text-transform: uppercase;
-    transition: color 250ms ease-in-out;
+    transition: background-color 250ms ease-in-out;
   }
 
   .header-sign-link:hover,
