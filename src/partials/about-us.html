@@ -1,20 +1,47 @@
 <link rel="stylesheet" href="../css/about-us.css" />
 <link rel="stylesheet" href="../css/styles.css" />
-<section class="about-us">
-  <div class="about-us-container">
-    <h2 class="about-us-title">
-      About <span class="about-us-title2">Us</span>
+<section class="about-us section">
+  <div class="container">
+    <h2 class="about-us-title section-header">
+      About <span class="about-us-title2 section-header">Us</span>
     </h2>
     <div class="about-us-flex">
-      <img
-        class="about-us-image"
-        src="../img/about-us/about-us.jfif"
-        alt="camera"
-      />
-      <!-- srcset="
-          ../img/about-us/about-us-mobile@1x.jpg 1x,
-          ../img/about-us/about-us-mobile@2x.jpg 2x
-        " -->
+      <div class="wrap-picture">
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/about-us/about-us-desktop@1x.jpg 1x,
+              ./img/about-us/about-us-desktop@2x.jpg 2x
+            "
+          />
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/about-us/about-us-tablet@1x.jpg 1x,
+              ./img/about-us/about-us-tablet@2x.jpg 2x
+            "
+          />
+          <!-- Mobile screen -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/about-us/about-us-mobile@1x.jpg 1x,
+              ./img/about-us/about-us-mobile@2x.jpg 2x
+            "
+          />
+          <img
+            class="about-us-camera"
+            src="./img/about-us/about-us-mobile@1x.jpg"
+            alt="Big camera"
+            width="209"
+            height="335"
+          />
+        </picture>
+      </div>
+
       <ul class="about-us-list">
         <li class="about-us-item">
           <p class="about-us-text">
