@@ -14,7 +14,7 @@
 @media screen and (min-width: 768px) {
     .footer {
 
-        background-image: url(../img/footer/footer-bg-tablet@1x.png);
+        background-image: url(./img/footer/footer-bg-tablet@1x.png);
         background-repeat: repeat;
         margin-bottom: 25px;
 

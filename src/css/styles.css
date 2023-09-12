@@ -91,3 +91,7 @@
   background: rgba(18, 18, 18, 0.40);
   transition: opacity 250ms ease-in-out;
 }
+
+.hero-bg {
+  background-image: url('../img/hero/Graphic.png')
+}
