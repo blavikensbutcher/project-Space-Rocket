@@ -137,6 +137,6 @@
 }
 
 .menu-container.js-menu-container.is-open {
-  animation: bounceInRight; 
+  animation: fadeInRight; 
   animation-duration: 2s;
 }

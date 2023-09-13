@@ -1,74 +1,110 @@
-.advertisement {
-  background: var(--black, #121212);
+.ticker {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 80px;
 }
 
-
-.advertisement-run-sides {
-  color: #bea69e;
-  font-weight: 400;
-  text-transform: uppercase;
+.ticker-wrapper {
   border: 1px solid transparent;
   border-top: ridge rgba(255, 255, 255, 0.2);
   border-bottom: ridge rgba(255, 255, 255, 0.2);
   height: 72px;
   padding: 17px;
   font-size: 28px;
+  display: flex;
+}
+
+.ticker-item {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding: 0 50px;
+  animation: ticker 5s linear infinite;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateZ(0);
+  }
+
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
 }
 
 .advertisement-run-center {
-  color: #fff;
-  font-weight: 400;
+  color: #bea69e;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
-
-  .advertisement-run-sides {
-    font-size: 40px;
-    line-height: 1.25;
-    letter-spacing: 0.05em;
+  .ticker {
+    margin-bottom: 100px;
+  }
+  .ticker-wrapper {
     height: 98px;
-    font-size: 40px;
     padding: 24px;
   }
-
-  .advertisement-run-center {
+  .ticker-item {
     font-size: 40px;
     line-height: 1.25;
-    letter-spacing: 0.05em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+  .advertisement-run-center {
+    color: #bea69e;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
   }
 }
 
 @media screen and (min-width: 1280px) {
-
-
-  .advertisement-run-sides {
-    font-size: 59px;
-    line-height: 1.08;
-    letter-spacing: 0.074em;
-    height: 112px;
-    padding: 25px;
+  .ticker {
+    margin-bottom: 150px;
   }
-
+  .ticker-wrapper {
+    height: 112px;
+  }
+  .ticker-item {
+    font-size: 59px;
+    line-height: 64px;
+    letter-spacing: -1.18px;
+    text-transform: uppercase;
+  }
   .advertisement-run-center {
+    color: #bea69e;
     font-size: 59px;
     line-height: 1.08;
-    letter-spacing: 0.074em;
+    letter-spacing: -1.18px;
+    text-transform: uppercase;
   }
 }
 
 @media screen and (min-width: 1440px) {
-
-  .advertisement-run-sides {
+  .ticker-item {
     font-size: 59px;
-    line-height: 1.08;
-    letter-spacing: 0.074em;
-    
+    line-height: 64px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
   }
-
   .advertisement-run-center {
+    color: #bea69e;
+    font-family: DM Sans;
     font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 1.08;
-    letter-spacing: 0.074em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
   }
 }
