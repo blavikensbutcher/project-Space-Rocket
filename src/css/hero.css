@@ -101,9 +101,6 @@
     font-style: italic;
     font-weight: 400;
     line-height: 44px;
-    animation: hinge; 
-  animation-duration: 2s;
-  /* animation-delay: 1.5s; */
 }
 
 @media screen and (min-width: 768px) {
